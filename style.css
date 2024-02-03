@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content:space-between;
     height: 40px;
+    margin-bottom: 30px;
 }
 
 ul {
@@ -35,7 +36,7 @@ ul {
     gap: 20px;
 }
 
-img {
+.logo-div img {
     height: 30px;
     width: 30px;
     align-self: center;
@@ -54,4 +55,143 @@ a {
     gap: 10px;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.himg {
+    width: 20%;
+}
+
+.himg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10em;
+}
+
+.htext {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 0;
+    gap: 0;
+}
+
+.htext h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.htext p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 20%;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.randominfo > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.el {
+    height: 250px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.rectangle {
+    height: 100%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.randominfo > .container > h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    padding: 5% 25%;
+}
+
+.quote > .container > h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote p {
+    font-weight: bold;
+    align-self:flex-end;
+}
+
+.cta {
+    padding: 5% 10%;
+}
+
+.cta > .container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta  button {
+    width: 10%;
+    padding: 5px;
+    align-self: center;
+}
+
+.cta h3 {
+    color: white;
+}
+
+.cta p {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0.5rem;
+    color: white;
 }
